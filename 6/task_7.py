@@ -27,12 +27,10 @@ target_number = 7  # random.randint(1, 100)
 user_number = 0
 counter_of_guesses = 0
 while user_number != target_number:
-    number = int(input('Введите число: '))
+    user_number = int(input('Введите число: '))
     counter_of_guesses += 1
     if user_number > target_number:
         print('Число больше, чем нужно. Попробуйте ещё раз!')
-        continue
     elif user_number < target_number:
         print('Число меньше, чем нужно. Попробуйте ещё раз!')
-        continue
 print('Вы угадали! Число попыток: ', counter_of_guesses)
