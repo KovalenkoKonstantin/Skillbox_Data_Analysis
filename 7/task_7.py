@@ -22,4 +22,4 @@ for i in range(1, upper_limit + 1):
 sum_of_missing_cards = 0
 for i in range(upper_limit - 1):
     sum_of_missing_cards -= int(input('Введите номер оставшейся карточки: '))
-print('Номер пропавшей карточки: ', sum_of_missing_cards + total_sum_of_cards)
+print('Номер пропавшей карточки:', sum_of_missing_cards + total_sum_of_cards)
