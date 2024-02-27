@@ -35,3 +35,12 @@
 # s = 1 − ½ + ¼ − ⅛ + 1/16 − 1/32 = 21/32 = 0,65625
 
 # P. S. Не стоит выполнять расчёты каждого элемента вручную, используйте цикл.
+N = int(input('Input N number: '))
+print(f'При N = {N} элементы выражения будут равны:')
+summ = 0
+for element in range(N):
+    print(f'n = {element}')
+    print(f'elem = (-1) ** {element} * 1/(2 ** {element}) = {(-1) ** element * 1 / (2 ** element)}')
+    summ += (-1) ** element * 1 / (2 ** element)
+print('Сумма равна:')
+print(f's = {summ}')
