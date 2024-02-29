@@ -23,10 +23,15 @@
 
 encrypted_message = input("Введите зашифрованное сообщение: ")
 # encrypted_message = 'shacnidw'
-decrypted_message = ""
-cipher = [1, 3, 5, 7, 8, 6, 4, 2]
 
-for i in cipher:
-    decrypted_message += encrypted_message[i - 1]
+head = ''
+tail = ''
+count = 0
+for char in encrypted_message:
+    count += 1
+    if count % 2 == 1:
+        head += char
+    else:
+        tail = char + tail
 
-print(f'Расшифрованное сообщение: {decrypted_message}')
+print(head + tail)
