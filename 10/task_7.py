@@ -31,3 +31,20 @@ for i in range(1, number_of_levels + 1):
         row += str(number) + adjust
         number += 2
     print(row)
+
+# height = int(input('Укажите количество уровней: '))
+#
+# start_num = 1
+#
+# for i in range(1, height + 1):
+#
+#     print('\t' * (height - i), end='')
+#
+#     for j in range(i):
+#
+#          print('\t', start_num, end='\t')
+#
+#         start_num += 2
+#
+#     print()
+    
