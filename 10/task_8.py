@@ -15,8 +15,8 @@
 # 5432..2345
 # 5432112345
 
-# N = int(input("Input N number: "))
-N = 8
+N = int(input("Input N number: "))
+# N = 8
 for i in range(N, 0, -1):
     row = ""
     for j in range(N, 0, -1):
