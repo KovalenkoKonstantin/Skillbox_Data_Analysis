@@ -28,7 +28,7 @@ def reverse_number(num):
 
 while True:
     try:
-        num = input('Введите число: ')
+        num = input('Введите целое число: ')
         int(num)
 
         if num == '0':
