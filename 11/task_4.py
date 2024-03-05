@@ -5,4 +5,5 @@ import math
 
 input_number = float(input('Enter a positive float number: '))
 
-print(math.floor((input_number - math.floor(input_number)) * 10))
+# print(math.floor((input_number - math.floor(input_number)) * 10))
+print(int(input_number * 10) % 10)
