@@ -86,5 +86,5 @@ with pd.ExcelWriter(path + file_name, engine="xlsxwriter", mode='w') as writer:
 #     path + file_name,
 #     index=False, sheet_name='Премии')
 
-# pyinstaller --noconsole --onefile hello.py
+# pyinstaller --noconsole --onefile main.py
 # auto-py-to-exe
