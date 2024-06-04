@@ -1,9 +1,26 @@
-﻿a = int(input('Input number: '))
-b = [1, 5, 2, -7, 6]
-b.append(a)
-for number in b:
+﻿numbers_list = [1, 5, 2, -7, 6]
+for _ in range(5):
+    new_num = int(input('Input number: '))
+    numbers_list.append(new_num)
+for number in numbers_list:
     print(number, '** 2 =',  number ** 2)
 
+
+books_id = [50, 34, -1, -1, 2, 23, -1]
+new_books_id = []
+returned = 0
+for _ in range(10):
+    id = int(input('input book id: '))
+    books_id.append(id)
+
+for id in books_id:
+    if id == -1:
+        returned += 1
+    else:
+        new_books_id.append(id)
+
+    print('new list :', new_books_id)
+    print('was returned: ', returned)
 
 # Задача 1. Таблица степеней
 #
