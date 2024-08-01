@@ -9,6 +9,7 @@
     <orderEntry type="module" module-name="Python" />
     <orderEntry type="module" module-name="Stepik_Python_Generation" />
     <orderEntry type="module" module-name="tkinter_projects" />
+    <orderEntry type="module" module-name="Stepik_Python_Generation_Advanced" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="renderExternalDocumentation" value="true" />
